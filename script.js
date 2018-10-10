@@ -24,6 +24,7 @@ function init() {
   document.getElementById("winner").innerHTML = "";
   document.getElementById("fight").disabled = false;
 }
+window.onload = init();
 
 function frame() {
   now = Date.now();
